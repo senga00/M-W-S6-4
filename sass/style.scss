@@ -1,0 +1,280 @@
+//import varriables
+@import "Var";
+
+//here beggin sass tyle
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif, cursive;
+    font-size: 1.18rem;
+    color: $font-color;
+}
+
+.main-header{
+    background-color: $heading-color;
+    color: $font-heading;
+    padding: 25px 0;
+.nav-bar{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto; 
+a{
+    text-decoration: none;
+    color: $font-heading; 
+    font-size: 1.7rem;
+    display: block;
+    transition: all 0.2s ease-in;
+&:hover{
+    transform: rotate(6deg);
+    color: $hover-nav-color;
+}    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+li{
+    list-style: none;
+    margin-left: 25px;
+}
+}    
+}    
+}
+
+.main-container{
+    background-color: $section-color;
+    width: 100%;
+    margin: 0 auto;
+.container{
+    width: 80%;
+    padding: 60px 50PX;
+    //background-color: red;
+    margin: 0 auto; 
+h1{
+    margin-bottom: 5px;
+    font-size: 4rem;
+
+}
+p{
+    line-height: 1.6;    
+}    
+
+
+h3{
+    margin-top: 20px;
+    color: $font-heading;
+    background-color: $button-color; 
+    display: inline-block;
+    padding: 13px 10px;
+    border-radius: 10px;
+    transition: all .5s ease-in;
+&:hover{
+    background-color: $heading-color;
+    cursor: pointer;
+}
+
+}
+
+}        
+}
+
+.main-section{
+    background-color: $section-Body-color;
+    width: 100%;
+.section-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px ;
+    width: 80%;
+    padding: 10vh 10px;
+    margin: 0 auto;
+    line-height: 1.6;
+.section{
+   margin-top: 40px;
+
+img{
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+&:hover{
+    cursor: pointer;
+}    
+}
+
+h4{
+    margin-bottom: 10px;
+    color: $button-color;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    display: block;
+&:hover{
+    transform: rotate(3deg);
+}    
+}
+}    
+}    
+}
+
+.main-footer{
+    background-color: $footer-color;
+    width: 100%;
+.footer{
+    height: 10vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: rgb(98, 97, 97);
+h3{
+    margin: 0 auto;
+}    
+}        
+}
+
+
+//here beggin style of About page
+
+.main-contain_1{
+    background-color: $section-color;
+    width: 100%;
+.title_{
+
+    margin: 40px 0 60px 80px;
+    //background-color: red;
+    display: inline-block;
+    height: 100%;
+    h1{
+        font-family: monospace;
+        font-size: 4rem;
+    }
+img{
+    border-radius: 50%;
+}        
+}    
+.container_2{
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%); 
+    grid-column-gap: 80px;
+h3{
+    font-family: monospace;
+    font-size: 1.98rem;
+    color: $button-color;
+    cursor: pointer;
+    transition: all .3s ease-in;
+&:hover{
+    transform: rotate(3deg);
+}    
+}    
+p{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0;
+    font-size: 1.44rem;
+    line-height: 1.6;
+}          
+}   
+}
+
+
+//here beggin the fortfolio style
+
+
+.main-container_2{
+    width: 100%;
+    height: 400px;   
+.container_3{
+    background-color: $button-color;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+img{
+    width: 30vh;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2mm solid $footer-color;
+    display: block;
+}    
+}  
+}
+
+.information{
+    background-color: $button-color;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 40px 0;
+    width: 100%;
+.Ytube img{
+    width: 69.18px;
+}
+.twitter{
+    width: 80px;
+}
+
+ul{
+    display: flex;
+img{
+    width:45px;
+    height: 45px;
+    position: relative;
+    left: 9vh;
+}    
+li{
+    list-style: none;
+    margin-left: 10vh;
+
+}   
+a{
+    text-decoration: line;
+    color: $font-heading;
+    font-family: monospace;
+    font-size: 3rem;
+    display: block;
+    transition: all .39s ease-in;
+
+&:hover{
+    color: $hover-nav-color;
+    transform: rotate(3deg);
+}    
+
+} 
+}    
+}
+
+.mini-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: $button-color;
+    height: 5vh;
+h3{
+    font-size: 3rem;
+    color: $font-heading;
+    font-family: monospace;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+}
+
+//here strat mediaQuery editing
+
+@media screen and(max-width: 400px){
+
+}

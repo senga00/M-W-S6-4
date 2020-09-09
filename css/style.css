@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, cursive;
+  font-size: 1.18rem;
+  color: #090909;
+}
+
+.main-header {
+  background-color: #3367D6;
+  color: #f3f3f3;
+  padding: 25px 0;
+}
+
+.main-header .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.main-header .nav-bar a {
+  text-decoration: none;
+  color: #f3f3f3;
+  font-size: 1.7rem;
+  display: block;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.main-header .nav-bar a:hover {
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
+  color: #002828;
+}
+
+.main-header .nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-header .nav-bar ul li {
+  list-style: none;
+  margin-left: 25px;
+}
+
+.main-container {
+  background-color: #8ba9e4;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-container .container {
+  width: 80%;
+  padding: 60px 50PX;
+  margin: 0 auto;
+}
+
+.main-container .container h1 {
+  margin-bottom: 5px;
+  font-size: 4rem;
+}
+
+.main-container .container p {
+  line-height: 1.6;
+}
+
+.main-container .container h3 {
+  margin-top: 20px;
+  color: #f3f3f3;
+  background-color: #2850A7;
+  display: inline-block;
+  padding: 13px 10px;
+  border-radius: 10px;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.main-container .container h3:hover {
+  background-color: #3367D6;
+  cursor: pointer;
+}
+
+.main-section {
+  background-color: #CED9DA;
+  width: 100%;
+}
+
+.main-section .section-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  width: 80%;
+  padding: 10vh 10px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.main-section .section-content .section {
+  margin-top: 40px;
+}
+
+.main-section .section-content .section img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-section .section-content .section img:hover {
+  cursor: pointer;
+}
+
+.main-section .section-content .section h4 {
+  margin-bottom: 10px;
+  color: #2850A7;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  display: block;
+}
+
+.main-section .section-content .section h4:hover {
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+
+.main-footer {
+  background-color: #E2E2E2;
+  width: 100%;
+}
+
+.main-footer .footer {
+  height: 10vh;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: #626161;
+}
+
+.main-footer .footer h3 {
+  margin: 0 auto;
+}
+
+.main-contain_1 {
+  background-color: #8ba9e4;
+  width: 100%;
+}
+
+.main-contain_1 .title_ {
+  margin: 40px 0 60px 80px;
+  display: inline-block;
+  height: 100%;
+}
+
+.main-contain_1 .title_ h1 {
+  font-family: monospace;
+  font-size: 4rem;
+}
+
+.main-contain_1 .title_ img {
+  border-radius: 50%;
+}
+
+.main-contain_1 .container_2 {
+  width: 60%;
+  margin: 0 auto;
+  padding: 60px 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (33%)[3];
+      grid-template-columns: repeat(3, 33%);
+  grid-column-gap: 80px;
+}
+
+.main-contain_1 .container_2 h3 {
+  font-family: monospace;
+  font-size: 1.98rem;
+  color: #2850A7;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.main-contain_1 .container_2 h3:hover {
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+
+.main-contain_1 .container_2 p {
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px 0;
+  font-size: 1.44rem;
+  line-height: 1.6;
+}
+
+.main-container_2 {
+  width: 100%;
+  height: 400px;
+}
+
+.main-container_2 .container_3 {
+  background-color: #2850A7;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-container_2 .container_3 img {
+  width: 30vh;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 2mm solid #E2E2E2;
+  display: block;
+}
+
+.information {
+  background-color: #2850A7;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0 40px 0;
+  width: 100%;
+}
+
+.information .Ytube img {
+  width: 69.18px;
+}
+
+.information .twitter {
+  width: 80px;
+}
+
+.information ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.information ul img {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  left: 9vh;
+}
+
+.information ul li {
+  list-style: none;
+  margin-left: 10vh;
+}
+
+.information ul a {
+  -webkit-text-decoration: line;
+          text-decoration: line;
+  color: #f3f3f3;
+  font-family: monospace;
+  font-size: 3rem;
+  display: block;
+  -webkit-transition: all .39s ease-in;
+  transition: all .39s ease-in;
+}
+
+.information ul a:hover {
+  color: #002828;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+
+.mini-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #2850A7;
+  height: 5vh;
+}
+
+.mini-section h3 {
+  font-size: 3rem;
+  color: #f3f3f3;
+  font-family: monospace;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
